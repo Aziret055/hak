@@ -31,7 +31,7 @@ toOrder.style.display = "block"
        <img class="img" src=${input1.value} alt=""/>
        <h2>${input2.value}</h2>
       <div class="df">
-       <h2>${input3.value}</h2>
+       <h2>${input3.value}$</h2>
       </div>
        </div>
     `
@@ -52,10 +52,13 @@ toOrder.addEventListener("click" , () => {
 
   ordersBlock.innerHTML = `
        <div class="createBlock">
+       <div class="df">
        <img class="img" src=${input1.value} alt=""/>
+       <div className="d">
        <h2>${input2.value}</h2>
-      <div class="df">
-       <h2>${input3.value}</h2>
+       <h2>${input3.value}$</h2>
+       </div>
+       <button class="delorder">deleteOrder</button>
       </div>
        </div>
     `

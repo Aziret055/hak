@@ -177,3 +177,17 @@ margin: 10px 0;
     justify-content: center;
     flex-wrap: wrap;
 }
+.orders-block {
+
+}
+.delorder{
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.6px;
+width: 188px;
+height: 40px;
+border-radius: 10px;
+background: #BD1D1D;
+border: none;
+}
